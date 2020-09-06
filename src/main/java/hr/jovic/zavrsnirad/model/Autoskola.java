@@ -12,7 +12,7 @@ import javax.persistence.Entity;
  * @author Ja
  */
 @Entity
-public class Autoskola {
+public class Autoskola extends Entitet{
     public String naziv;
     public String mjesto;
     public String adresa;

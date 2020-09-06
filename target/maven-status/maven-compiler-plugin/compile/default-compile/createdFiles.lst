@@ -6,4 +6,5 @@ hr\jovic\zavrsnirad\Start.class
 hr\jovic\zavrsnirad\utility\PocetniInsert.class
 hr\jovic\zavrsnirad\model\Polaznik.class
 hr\jovic\zavrsnirad\utility\HibernateUtil.class
+hr\jovic\zavrsnirad\model\NewClass.class
 hr\jovic\zavrsnirad\model\Autoskola.class

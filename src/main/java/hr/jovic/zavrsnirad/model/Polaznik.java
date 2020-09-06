@@ -12,7 +12,7 @@ import javax.persistence.Entity;
  * @author Ja
  */
 @Entity
-public class Polaznik {
+public class Polaznik extends Entitet{
     public boolean polozeni_propisi;
     public boolean polozena_prva_pomoc;
     public int broj_odvozenih_sati;

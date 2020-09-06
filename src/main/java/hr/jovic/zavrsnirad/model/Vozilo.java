@@ -5,6 +5,7 @@
  */
 package hr.jovic.zavrsnirad.model;
 
+
 import javax.persistence.Entity;
 import javax.persistence.ManyToOne;
 
@@ -13,7 +14,7 @@ import javax.persistence.ManyToOne;
  * @author Ja
  */
 @Entity
-public class Vozilo {
+public class Vozilo extends Entitet{
     
     private String registracijska_oznaka;
     private String marka;

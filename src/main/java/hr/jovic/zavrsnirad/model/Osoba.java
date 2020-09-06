@@ -13,8 +13,8 @@ public abstract class Osoba extends Entitet{
     
     private String ime;
     private String prezime;
-    private int oib;
-    private int mobitel;
+    private String oib;
+    private String mobitel;
 
     public String getIme() {
         return ime;
@@ -32,21 +32,25 @@ public abstract class Osoba extends Entitet{
         this.prezime = prezime;
     }
 
-    public int getOib() {
+    public String getOib() {
         return oib;
     }
 
-    public void setOib(int oib) {
+    public void setOib(String oib) {
         this.oib = oib;
     }
 
-    public int getMobitel() {
+    public String getMobitel() {
         return mobitel;
     }
 
-    public void setMobitel(int mobitel) {
+    public void setMobitel(String mobitel) {
         this.mobitel = mobitel;
     }
+    
+    
+
+    
     
     
 }
